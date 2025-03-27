@@ -156,7 +156,7 @@
             <h2>Size Attribute Checker</h2>
             <p>Check if the current page contains any images that are missing size attributes (width and/or height)</p>
             <a
-                href="javascript:(function(){var imgs=document.querySelectorAll('img');var missing=[];imgs.forEach(function(img){if(!img.hasAttribute('width')||!img.hasAttribute('height')){img.style.border='2px solid red';missing.push(img.src);}});if(missing.length>0){var newTab=window.open();newTab.document.write('&lt;h1&gt;Images missing width and/or height:&lt;/h1&gt;&lt;ul&gt;');missing.forEach(function(url){newTab.document.write('&lt;li&gt;&lt;a href="'+url+'" target="_blank"&gt;'+url+'&lt;/a&gt;&lt;/li&gt;');});newTab.document.write('&lt;/ul&gt;');}else{alert('No images are missing width or height attributes.');}})();">Missing Image Sizes</a>
+                href="javascript:(function(){var imgs=document.querySelectorAll('img');var missing=[];imgs.forEach(function(img){if(!img.hasAttribute('width')||!img.hasAttribute('height')){img.style.border='2px solid red';missing.push(img.src);}});if(missing.length&gt;0){var newTab=window.open();newTab.document.write('&lt;h1&gt;Images missing width and/or height:&lt;/h1&gt;&lt;ul&gt;');missing.forEach(function(url){newTab.document.write('&lt;li&gt;&lt;a href=&quot;'+url+'&quot; target=&quot;_blank&quot;&gt;'+url+'&lt;/a&gt;&lt;/li&gt;');});newTab.document.write('&lt;/ul&gt;');}else{alert('No images are missing width or height attributes.');}})();">Missing Image Sizes</a>
         </div>
 
     </div>
